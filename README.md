@@ -19,5 +19,5 @@
 >npm start
 
 # For packages
-* Change or add depencies version in package.json 
+* Change or add dependencies version in package.json 
 * Run >>> npm install
