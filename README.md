@@ -1,29 +1,23 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* (https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
+# To install globally 
+* npm install -r create-react-app
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+# To check version
+* create-react-app --v
 
-### Contribution guidelines ###
+# To createapp
+* create-react-app <Project name> "react_start in my case"
 
-* Writing tests
-* Code review
-* Other guidelines
+# To startpp
+> cd to the app "cd react_start in my case"
+>npm start
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+# For packages
+* Change or add depencies version in package.json 
+* Run >>> npm install
