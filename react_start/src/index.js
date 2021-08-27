@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const name = 'Shiv';
 ReactDOM.render(
     <>
-      <h1>Hello World...!!!</h1>
+      <h1>Hello {name}...!!!</h1>
       <h2>This is react beginning</h2>
     </ >
 
