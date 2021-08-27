@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <React.Fragment>
+    <>
       <h1>Hello World...!!!</h1>
       <h2>This is react beginning</h2>
-    </React.Fragment>
+    </ >
 
   ,
   document.getElementById('root')
