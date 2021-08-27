@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const name = 'Shiv';
+const fname = 'Shiv';
+const lname = 'Sharma'
+
 ReactDOM.render(
     <>
-      <h1>Hello {name}...!!!</h1>
+      <h1> {` Hello ${fname} ${lname}...!!!`}</h1>
       <h2>This is react beginning</h2>
     </ >
-
   ,
   document.getElementById('root')
 );
