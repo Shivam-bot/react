@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 const fname = 'Shiv';
 const lname = 'Sharma'
-
+const current_date = new Date()
 ReactDOM.render(
     <>
       <h1> {` Hello ${fname} ${lname}...!!!`}</h1>
-      <h2>This is react beginning</h2>
-    </ >
+      <h2>{` Today's  date is ${current_date.toLocaleDateString()}`}</h2>
+      <h2>{` Time  is ${current_date.toLocaleTimeString()}`}</h2>
+
+      </ >
   ,
   document.getElementById('root')
 );
