@@ -21,3 +21,5 @@
 # For packages
 * Change or add dependencies version in package.json 
 * Run >>> npm install
+
+* If react  version is >16. the diiferent element of JSX pass in array otherwise in single div.
